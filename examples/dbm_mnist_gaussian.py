@@ -271,11 +271,11 @@ def main():
                         help='random seeds for models training')
 
     # save dirpaths
-    parser.add_argument('--rbm1-dirpath', type=str, default='../models/dbm_mnist_rbm1/', metavar='DIRPATH',
+    parser.add_argument('--rbm1-dirpath', type=str, default='../models/dbm_mnist_gauss_rbm1/', metavar='DIRPATH',
                         help='directory path to save RBM #1')
-    parser.add_argument('--rbm2-dirpath', type=str, default='../models/dbm_mnist_rbm2/', metavar='DIRPATH',
+    parser.add_argument('--rbm2-dirpath', type=str, default='../models/dbm_mnist_gauss_rbm2/', metavar='DIRPATH',
                         help='directory path to save RBM #2')
-    parser.add_argument('--dbm-dirpath', type=str, default='../models/dbm_mnist/', metavar='DIRPATH',
+    parser.add_argument('--dbm-dirpath', type=str, default='../models/dbm_gauss_mnist/', metavar='DIRPATH',
                         help='directory path to save DBM')
 
     # DBM related
